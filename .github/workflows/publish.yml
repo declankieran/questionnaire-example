@@ -38,7 +38,10 @@ jobs:
         run: sudo apt install graphviz
 
       - name: Build IG
-        run: ./_genonce.sh 
+        run: ./_genonce.sh
+      
+      - name: Copy modded questionnaire to support R4 example renderer
+        run: cp input/pagecontent/questionnaire-example-r4-mod.json output
 
       - name: Publish IG Artefact
         uses: actions/upload-artifact@v4
