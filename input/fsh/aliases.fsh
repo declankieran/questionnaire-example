@@ -1,5 +1,6 @@
-Alias: $example = http://example.org
-
+Alias: $example              = http://example.org
+Alias: $DCM                  = http://dicom.nema.org/resources/ontology/DCM
+Alias: $device-versiontype   = http://hl7.org/fhir/ValueSet/device-versiontype
 // Code systems - sdc
 Alias: $launchContext = http://hl7.org/fhir/uv/sdc/CodeSystem/launchContext
 Alias: $temp          = http://hl7.org/fhir/uv/sdc/CodeSystem/temp
@@ -12,6 +13,7 @@ Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation
 Alias: $usage-context-type   = http://terminology.hl7.org/CodeSystem/usage-context-type
 Alias: $v2-0136              = http://terminology.hl7.org/CodeSystem/v2-0136
 Alias: $v2-0203              = http://terminology.hl7.org/CodeSystem/v2-0203
+Alias: $v2-0360              = http://terminology.hl7.org/CodeSystem/v2-0360
 Alias: $v2-0532              = http://terminology.hl7.org/CodeSystem/v2-0532
 Alias: $v3-MaritalStatus     = http://terminology.hl7.org/CodeSystem/v3-MaritalStatus
 Alias: $v3-RoleCode          = http://terminology.hl7.org/CodeSystem/v3-RoleCode
