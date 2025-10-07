@@ -1,6 +1,7 @@
 Instance: ObservationMarginDistanceAlgorithm
 InstanceOf: Observation
-Title: "Observation: Result produced by algorithm that calculated tumour distance from margin"
+Title: "Observation: Margin Distance Algorithm"
+Description: "Result produced by algorithm that calculated tumour distance from margin"
 Usage: #example
 * status = #final
 * code = $sct#384822004 "Distance of tumor from margin"

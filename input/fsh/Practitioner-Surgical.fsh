@@ -1,6 +1,7 @@
 Instance: PractitionerSurgical
 InstanceOf: Practitioner
-Title: "Practitioner: A dermatologist"
+Title: "Practitioner: Surgical"
+Description: "A dermatologist"
 Usage: #example
 * name.use = #official
 * name.family = "Smith"

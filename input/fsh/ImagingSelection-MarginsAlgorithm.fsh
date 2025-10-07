@@ -1,6 +1,7 @@
 Instance: ImagingSelectionMarginsAlgorithm
 InstanceOf: ImagingSelection
-Title: "ImagingSelection: Image regions used as input for margins algorithm"
+Title: "ImagingSelection: Margin Algorithm"
+Description: "Image regions used as input for margins algorithm."
 Usage: #example
 * status = #available
 * subject = Reference(Patient/PatientExample)

@@ -1,6 +1,6 @@
 Instance: QuestionnaireNaevusExample
 InstanceOf: Questionnaire
-Title: "Questionnaire: Naevus surgical margin questionnaire"
+Title: "Questionnaire: Naevus Example"
 Description: "Naevus surgical margin questionnaire"
 Usage: #example
 * url = "http://example.org/fhir/Questionnaire/NaevusExample"

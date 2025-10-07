@@ -1,6 +1,7 @@
 Instance: DeviceMarginAlgorithm
 InstanceOf: Device
-Title: "Device: Algorithm for calculating distance of tumour from margin"
+Title: "Device: Margin Algorithm"
+Description: "Algorithm for calculating distance of tumour from margin."
 Usage: #example
 * type = $sct#133883001 "Computer assisted image analysis "
 * displayName = "Margin Algorithm"

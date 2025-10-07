@@ -1,6 +1,7 @@
 Instance: ObservationMarginPathologist
 InstanceOf: Observation
-Title: "Observation: Result of review by pathologist"
+Title: "Observation: Margin Pathologist"
+Description: "Result of review by pathologist."
 Usage: #example
 * status = #final
 * code = $sct#372439002 "Status of proximal surgical margin tumor involvement"

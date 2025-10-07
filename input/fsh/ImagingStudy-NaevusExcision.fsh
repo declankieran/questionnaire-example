@@ -1,12 +1,12 @@
 Instance: ImagingStudyNaevusExcision
 InstanceOf: ImagingStudy
-Title: "ImagingStudy: DICOM imaging study if naevus excision"
+Title: "ImagingStudy: Naevus Excision"
+Description: "Post-excision imaging of naevus from neck for margin assessment"
 Usage: #example
 * identifier.system = "urn:dicom:uid"
 * identifier.value = "urn:oid:1.2.840.113619.2.55.3.604688654.1234"
 * status = #available
 * subject = Reference(Patient/PatientExample)
-* description = "Post-excision imaging of naevus from neck for margin assessment"
 * started = "2025-10-06T11:00:00+01:00"
 * modality = $DCM#SM "Slide Microscopy"
 * numberOfSeries = 1

@@ -1,6 +1,7 @@
 Instance: ImagingSelectionMarginsPathologist
 InstanceOf: ImagingSelection
-Title: "ImagingSelection: Image regions used in pathologist review"
+Title: "ImagingSelection: Margins Pathologist"
+Description: "Image regions used in pathologist review."
 Usage: #example
 * status = #available
 * subject = Reference(Patient/PatientExample)

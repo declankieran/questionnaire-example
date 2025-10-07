@@ -1,6 +1,6 @@
 Instance: PatientExample
 InstanceOf: Patient
-Title: "Patient: An example of a patient that will require a mole removed."
+Title: "Patient: Example"
 Description: "An example of a patient that will require a mole removed."
 * name
   * given[0] = "Pat"

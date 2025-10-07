@@ -1,6 +1,7 @@
 Instance: SpecimenNaevus
 InstanceOf: Specimen
-Title: "Specimen: A naevus specimen excised from a patient"
+Title: "Specimen: Naevus."
+Description: "A naevus specimen excised from a patient."
 Usage: #example
 * status = #available
 * type = $sct#396355000 "Specimen from skin obtained by excision"
