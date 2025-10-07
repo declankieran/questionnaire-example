@@ -1,4 +1,4 @@
-Instance: BundleLabResultReportPOC
+Instance: BundleHistopathologyImagingReport
 InstanceOf: Bundle
 Title: "Bundle: Naevus Excision Histopathology Report"
 Description: "Naevus Excision Histopathology Report"
