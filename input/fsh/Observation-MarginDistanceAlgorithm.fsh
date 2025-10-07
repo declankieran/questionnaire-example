@@ -11,4 +11,4 @@ Usage: #example
 * device = Reference(Device/DeviceMarginAlgorithm) "Margin Algorithm"
 * derivedFrom[0] = Reference(ImagingSelection/ImagingSelectionMarginsAlgorithm)
 * valueQuantity = 2.3 'mm' "mm"
-* note.text = "Measured from central lesion to nearest margin using digital slide microscopy."
+* note.text = "Measured from edge of lesion to nearest margin using margin distance algorithm v1.0.0."
