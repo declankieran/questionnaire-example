@@ -54,13 +54,7 @@ jobs:
           done
 
       - name: Publish IG to GitHub Pages
-        uses: actions/upload-pages-artifact@v3
-
-      - name: Cache Node modules
-        uses: actions/cache@v3
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}--build-cache-npm-packages-${{ hashFiles('**/package-lock.json') }}
+        uses: actions/upload-pages-artifact@v4
 
   # Deploy job (https://github.com/actions/deploy-pages)
   deploy:
