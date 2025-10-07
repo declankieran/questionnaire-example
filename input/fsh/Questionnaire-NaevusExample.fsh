@@ -4,8 +4,53 @@ Title: "Questionnaire: Naevus Example"
 Description: "Naevus surgical margin questionnaire"
 Usage: #example
 * url = "http://example.org/fhir/Questionnaire/NaevusExample"
+* title = "Naevus Excision Histopathology Report"
 * name = "NaevusExample"
 * status = #active
+* item[+]
+  * linkId = "Patient"
+  * text = "Patient Details"
+  * type = #group
+  * item[+]
+    * linkId = "Name"
+    * text = "Name: Pat Example"
+    * type = #display
+  * item[+]
+    * linkId = "dob"
+    * text = "Date of Birth: 2000-01-01"
+    * type = #display
+* item[+]
+  * linkId = "Specimen"
+  * text = "Specimen Details"
+  * type = #group
+  * item[+]
+    * linkId = "SCT"
+    * text = "SCT: 396355000 | Specimen from skin obtained by excision"
+    * type = #display
+    * item[+]
+      * linkId = "collector"
+      * text = "Collector"
+      * type = #group
+      * item[+]
+        * linkId = "Surgeon"
+        * text = "Name: Dr. Jane Smith"
+        * type = #display
+      * item[+]
+        * linkId = "Role"
+        * text = "Role: Dermatologist"
+        * type = #display
+* item[+]
+  * linkId = "AlgorithmResults"
+  * text = "Algorithm Results"
+  * type = #group
+  * item[+]
+    * linkId = "Algorithm"
+    * text = "Algorithm: Tumour to Margin Distance v1.0.0"
+    * type = #display
+  * item[+]
+    * linkId = "Result"
+    * text = "Result: 2.3mm measured from edge of lesion to nearest margin."
+    * type = #display
 * item[+]
   * linkId = "1"
   * text = "Naevus"
